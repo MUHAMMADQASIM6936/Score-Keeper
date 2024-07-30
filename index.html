@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The score keeper</title>
+    <style>
+        .winner{
+            color: green;
+        }
+        .loser{
+            color:red;
+        }
+        .resetcolor{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1><span id="p1score">0</span> to <span id="p2score">0</span></h1>
+    <label>choose the no of points</label>
+    <select name="option" id="points">
+        <option value="5" >5</option>
+        <option value="6">6</option>
+        <option value="8" >8</option>
+        <option value="10">10</option>
+    </select>
+ 
+    <br>
+    <button id="player1" style="color: blue;">+1 player one</button>
+    <button id="player2" style="color: crimson;">+1 player two</button>
+    <button id="reset" style="color: darkgoldenrod;">Reset</button>
+    <script src="app.js"></script>
+</body>
+</html>
